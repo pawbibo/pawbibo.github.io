@@ -8,7 +8,15 @@
     <title>Paw - Web Developer</title>
     <link rel="stylesheet" type="text/css" href="./assets/semantic.min.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
     <script type="text/javascript" src="./assets/semantic.min.js"></script>
+
+    <!-- Added for Safari -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
   </head>
   <body>
     <div class="ui secondary pointing menu">
@@ -40,22 +48,66 @@
           </div>
           <div class="extra"><i class="unordered list icon"></i> Skill Pool</div>
           <div class="meta">
-             <div class="ui tag label skill-pool">PHP</div>
-             <div class="ui tag label skill-pool">CakePHP</div>
-             <div class="ui tag label skill-pool">CSS</div>
-             <div class="ui tag label skill-pool">Javascript</div>
-             <div class="ui tag label skill-pool">jQuery</div>
-             <div class="ui tag label skill-pool">React</div>
-             <div class="ui tag label skill-pool">Bootstrap</div>
-             <div class="ui tag label skill-pool">Semantic UI</div>
-             <div class="ui tag label skill-pool">Apache</div>
-             <div class="ui tag label skill-pool">NGINX</div>
+            <div class="ui tag label skill-pool">PHP</div>
+            <div class="ui tag label skill-pool">CakePHP</div>
+            <div class="ui tag label skill-pool">CSS</div>
+            <div class="ui tag label skill-pool">Javascript</div>
+            <div class="ui tag label skill-pool">jQuery</div>
+            <div class="ui tag label skill-pool">React</div>
+            <div class="ui tag label skill-pool">Bootstrap</div>
+            <div class="ui tag label skill-pool">Semantic UI</div>
+            <div class="ui tag label skill-pool">Apache</div>
+            <div class="ui tag label skill-pool">NGINX</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- work -->
+      <h1 class="ui horizontal divider header">Work</h1>
+      <div class="ui unstackable items">
+        <div class="item">
+          <div class="github-contrib"></div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="content">
+            <a class="header">Header</a>
+            <div class="meta">
+              <span>Description</span>
+            </div>
+            <div class="description">
+              <p></p>
+            </div>
+            <div class="extra">
+              Additional Details
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image">
+            <img src="/images/wireframe/image.png">
+          </div>
+          <div class="content">
+            <a class="header">Header</a>
+            <div class="meta">
+              <span>Description</span>
+            </div>
+            <div class="description">
+              <p></p>
+            </div>
+            <div class="extra">
+              Additional Details
+            </div>
           </div>
         </div>
       </div>
 
 
 
+
   </body>
+  <script type='text/javascript'>GitHubCalendar('.github-contrib', 'pawbibo'); </script>
 </html>
 
